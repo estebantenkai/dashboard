@@ -2911,7 +2911,7 @@ if(sessionStorage.getItem('tk_restored')){sessionStorage.removeItem('tk_restored
 // Si no hay URL de API configurada, todo sigue funcionando en modo local.
 // ═══════════════════════════════════════════════════════════
 var TK_ONLINE_ONLY=true;   // true en la versión publicada (sin datos dentro del archivo)
-var TK_API='';   // ← URL de la aplicación web de Apps Script (termina en /exec). Opcional: también se puede pegar desde Configuración.
+var TK_API='https://script.google.com/macros/s/AKfycbwVcehBF08Hj50H6Rhs9GTPWi5M1sFkIXQwS2pD4i6hIMq0TU4QGBo-DX291I0nGoI/exec';   // ← URL de la aplicación web de Apps Script (termina en /exec). Opcional: también se puede pegar desde Configuración.
 var TKS={api:'',token:null,user:null,exp:0,snap:{c:{},d:{}},lastNow:0,snapLoaded:false,timer:null,poll:null,retry:null,pushing:false,pulling:false,hold:false,ready:false,paused:false,status:'local',lastOk:0};
 
 const TK_COLL={
